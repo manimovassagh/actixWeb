@@ -1,4 +1,4 @@
-[actix_web::main]
+#[actix_web::main]
 use actix_web::{get, post, web, App, HttpResponse, HttpServer, Responder};
 
 #[get("/")]
